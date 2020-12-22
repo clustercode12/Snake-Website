@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Main Font";
+    src: url(res/fonts/Gravity-Regular.otf) format("truetype");
+}
+@font-face {
+    font-family: "Title Font";
+    src: url(res/fonts/Gravity-Bold.otf) format("truetype");
+}
+
+.title {
+	text-align: center;
+	font-family: "Title Font", Verdana, Tahoma;
+	display: block;
+	padding: 10;
+}
+
+canvas {
+	display: block;
+	position: absolute;
+	border: 1px solid #000;
+	margin: auto;
+
+	right: 0;
+	left: 0;
+}
